@@ -1,12 +1,12 @@
 {
   "notes": [
     {
-      "text": " note1",
+      "text": " learn redux",
       "completed": false,
       "id": 1
     },
     {
-      "text": "note2",
+      "text": "learn react",
       "completed": false,
       "id": 2
     }

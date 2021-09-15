@@ -53,8 +53,7 @@ input {
   font-size: 16px;
 }
 
-.submitBtn,
-#deleteAll {
+.submitBtn {
   background-color: orange;
   height: 4vh;
   width: 100px;
@@ -86,4 +85,11 @@ form button {
 .todo.strike {
   color: grey;
   text-decoration: line-through;
+}
+
+li button {
+  background-color: red;
+  width: 10vh;
+  height: 18px;
+  margin-left: 15px;
 }

@@ -17,14 +17,11 @@ const Notes = () => {
                     className={note.completed ? "strike todo" : "todo"}>
                     {note.text}
 
-                    <button className='remove-btn' onClick={() => dispatch(updateNotes(note.id))}>
+                    <button className='remove-btn' onClick={() => dispatch(updateNotes(note.id))}>Remove
                     </button>
-
                 </li>
             ))}
-
         </ul>
-
     );
 };
 
