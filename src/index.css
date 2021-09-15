@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(53, 53, 53);
+  height: 19vh;
+  color: rgb(247, 231, 201);
+}
+
+h1 {
+  padding: 20px 20px 20px 50px;
+}
+
+p,
+li {
+  padding: 0 0 0 50px;
+  line-height: 200%;
+}
+
+li {
+  margin: 20px 10px 0 50px;
+}
+
+.strike {
+  text-decoration-line: line-through;
+}
+
+.todo {
+  text-decoration-line: none;
+}
+
+input {
+  height: 4vh;
+  width: 17vw;
+  margin: 50px 0 50px 50px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submitBtn,
+#deleteAll {
+  background-color: orange;
+  height: 4vh;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 20px;
+  box-shadow: 0 0 5px #333;
+}
+
+main {
+  padding: 2rem;
+}
+
+form input {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+form button {
+  background-color: darkorange;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+
+.todo {
+  color: green;
+}
+.todo.strike {
+  color: grey;
+  text-decoration: line-through;
+}
